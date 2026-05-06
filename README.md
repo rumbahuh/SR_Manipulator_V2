@@ -1,2 +1,11 @@
 # SR_Manipulator_V2
-Mobile manipulation system featuring a SCARA arm and differential base, with custom URDFs and Blender-generated meshes, integrated with MoveIt 2 for telemetry analysis of complex kinematics
+## Explicación de gráficas
+## Enlace de descarga del archivo rosbag
+## Captura de RVIZ
+## Imágenes de simulación
+## Árbol de transformadas
+## Gráfica posición de ruedas vs tiempo
+## Gráfica aceleración vs tiempo
+## Gráfica de gasto vs tiempo
+
+## Other
