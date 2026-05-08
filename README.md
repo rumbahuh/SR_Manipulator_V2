@@ -14,8 +14,8 @@ El cubo verde se desplazó en el tanque debido al movimiento del rover. Más ade
 ![Cubo verde en reposo en el tanque](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/cubo_verde_reposo_en_tanque.png)
 ### Extra: Rover después de recorrer los últimos metros
 ![Rover en salida](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rover_end.png)
-## Árbol de transformadas
-![Árbol de transformadas](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/frames_2026-05-08_17.23.00.pdf)
+## ![Árbol de transformadas](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/frames_2026-05-08_17.23.00.pdf)
+![Árbol de transformadas](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/frames_2026-05-08_17.23.00_page-0001.jpg)
 ## Gráfica posición de ruedas vs tiempo
 ![Posición ruedas vs tiempo](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/ruedas_posicion.png)
 ## Gráfica aceleración vs tiempo
