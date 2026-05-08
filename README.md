@@ -24,5 +24,6 @@ El cubo verde se desplazó en el tanque debido al movimiento del rover. Más ade
 ![Gasto vs tiempo](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/gasto.png)
 
 ## Other
-Se me rompieron las texturas entre que pasé el modelo de blender a los urdfs, pero con color era de esta manera:
+Se me rompieron las texturas entre que pasé el modelo de blender a los urdfs y con color es de esta manera:
+![Nightwing vroom vroom](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/modelo/rover.png)
 He de decir que hubiera implementado el tanque de otra manera si hubiera podido, pero al ver que los objetos se mantenían con esas medidas mínimas me pareció coherente dejarlo y no complicar demasiado el diseño.
