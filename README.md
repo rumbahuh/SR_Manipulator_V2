@@ -1,6 +1,6 @@
 # SR_Manipulator_V2
 ## Explicación de gráficas
-## Enlace de descarga del archivo rosbag
+## Enlaces de descarga del archivo rosbag
 ### ![Archivo mcap](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rosbag_kachau/rosbag_kachau_0.mcap)
 ### ![Archivo yaml](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rosbag_kachau/metadata.yaml)
 ## Captura de RVIZ
