@@ -1,11 +1,11 @@
 # SR_Manipulator_V2
 ## Explicación de gráficas
 ## Enlace de descarga del archivo rosbag
-![Archivo rosbag_kachau_0.mcap](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rosbag_kachau/rosbag_kachau_0.mcap)
-![Archivo metadata.yaml](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rosbag_kachau/metadata.yaml)
+### ![Archivo rosbag_kachau_0.mcap](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rosbag_kachau/rosbag_kachau_0.mcap)
+### ![Archivo metadata.yaml](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rosbag_kachau/metadata.yaml)
 ## Captura de RVIZ
-![Captura de rviz modelo de tfs](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rviz_tf_model.png)
-![Captura de rviz modelo de completo](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rviz_model.png)
+### ![Captura de rviz modelo de tfs](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rviz_tf_model.png)
+### ![Captura de rviz modelo de completo](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rviz_model.png)
 ## Imágenes de simulación
 ### Imagen especificada 1 (cubo verde sostenido en el aire)
 ![Captura de rviz modelo de completo](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/cubo_verde_en_el_aire.png)
