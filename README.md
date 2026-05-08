@@ -10,6 +10,10 @@
 ### Imagen especificada 2 (cubo azul justo antes de colocarlo sobre el rojo)
 El cubo verde se desplazó en el tanque debido al movimiento del rover. Más adelante adjunto una imagen después de colocarlo en el tanque en el que se observa el cubo en reposo correctamente.
 ![Captura de rviz modelo de completo](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/cubo_azul_antes_de_colocarlo.png)
+### Extra: Cubo verde después de dejarlo sobre el tanque
+![Cubo verde en reposo en el tanque](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/cubo_verde_reposo_en_tanque.png)
+### Extra: Rover después de recorrer los últimos metros
+![Rover en salida](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rover_end.png)
 ## Árbol de transformadas
 ## Gráfica posición de ruedas vs tiempo
 ![Posición ruedas vs tiempo](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/ruedas_posicion.png)
