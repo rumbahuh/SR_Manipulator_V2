@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <material name="Material.001"><color rgba="0 0 0 1"/></material>
+  <material name="Material.002"><color rgba="0 0 0 1"/></material>
+  <material name="Material.003"><color rgba="0 0 0 1"/></material>
+  <material name="Material.004"><color rgba="0 0 0 1"/></material>
+  <material name="Material.005"><color rgba="0 0 0 1"/></material>
+  <material name="Material.006"><color rgba="0 0 0 1"/></material>
+  <material name="Material.007"><color rgba="0 0 0 1"/></material>
+  <material name="Material.008"><color rgba="0 0 0 1"/></material>
+  <material name="Material.009"><color rgba="0 0 0 1"/></material>
+  <material name="Material.010"><color rgba="0 0 0 1"/></material>
+  <material name="Material.011"><color rgba="0 0 0 1"/></material>
+  <material name="Material.012"><color rgba="0 0 0 1"/></material>
+  <material name="Material.013"><color rgba="0 0 0 1"/></material>
+  <material name="Material.014"><color rgba="0 0 0 1"/></material>
+  <material name="Material.015"><color rgba="0 0 0 1"/></material>
+  <material name="Material.016"><color rgba="0 0 0 1"/></material>
+  <material name="Material.017"><color rgba="0 0 0 1"/></material>
+  <material name="Material.018"><color rgba="0 0 0 1"/></material>
+  <material name="Material.019"><color rgba="0 0 0 1"/></material>
+  <material name="Material.020"><color rgba="0 0 0 1"/></material>
+  <material name="Material.021"><color rgba="0 0 0 1"/></material>
+
+  <xacro:macro name="solid_cuboid_inertia" params="m w h d">
+    <inertia ixx="${(m/12.0) * (h*h + d*d)}" ixy="0" ixz="0"
+             iyy="${(m/12.0) * (w*w + d*d)}" iyz="0"
+             izz="${(m/12.0) * (w*w + h*h)}"/>
+  </xacro:macro>
+
+  <xacro:macro name="solid_cylinder_inertia" params="m r h">
+    <inertia ixx="${(m/12.0) * (3*r*r + h*h)}" ixy="0" ixz="0"
+             iyy="${(m/12.0) * (3*r*r + h*h)}" iyz="0"
+             izz="${(m*r*r)/2.0}"/>
+  </xacro:macro>
+</robot>
