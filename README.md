@@ -2,6 +2,8 @@
 ## Explicación de gráficas
 ## Enlace de descarga del archivo rosbag
 ## Captura de RVIZ
+![Captura de rviz modelo de tfs](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rviz_tf_model.png)
+![Captura de rviz modelo de completo](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rviz_model.png)
 ## Imágenes de simulación
 ## Árbol de transformadas
 ## Gráfica posición de ruedas vs tiempo
