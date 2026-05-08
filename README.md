@@ -1,4 +1,31 @@
 # SR_Manipulator_V2
+Para ejecutarlo tuve problemas con lo que tarda en lanzarse moveit, asi que lancé los dos primeros launchers en otro orden:
+```
+source /opt/ros/jazzy/setup.bash
+cd kachau_ws
+colcon build --symlink-install
+```
+```
+source ~/kachau_ws/install/setup.bash
+ros2 launch robot_moveit_config move_group.launch.py
+```
+```
+source ~/kachau_ws/install/setup.bash
+ros2 launch rover_kachau robot_gazebo.launch.py world_name:=urjc_excavation_msr
+```
+```
+source ~/kachau_ws/install/setup.bash
+ros2 launch rover_kachau robot_controllers.launch.py
+```
+```
+source /opt/ros/jazzy/setup.bash
+ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+```
+Una vez tuviera todos los topics listos lancé el rosbag:
+```
+ros2 bag record /cmd_vel /imu /joint_states -o rosbag_kachau
+```
+
 ## Explicación de gráficas
 ## Enlaces de descarga del archivo rosbag
 ### ![Archivo mcap](https://github.com/rumbahuh/SR_Manipulator_V2/blob/main/rosbag_kachau/rosbag_kachau_0.mcap)
