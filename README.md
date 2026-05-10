@@ -12,7 +12,7 @@ El proyecto incluye teleoperación, manipulación de objetos mediante brazo SCAR
 ## Compilación
 ```
 source /opt/ros/jazzy/setup.bash
-cd /SR_Manipulator_V2/kachau_ws
+cd ~/SR_Manipulator_V2/kachau_ws
 colcon build --symlink-install
 ```
 
