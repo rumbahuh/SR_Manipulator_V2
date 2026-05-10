@@ -12,7 +12,7 @@ El proyecto incluye teleoperación, manipulación de objetos mediante brazo SCAR
 ## Compilación
 ```
 source /opt/ros/jazzy/setup.bash
-cd ~/kachau_ws
+cd kachau_ws
 colcon build --symlink-install
 ```
 
@@ -20,15 +20,15 @@ colcon build --symlink-install
 Debido al tiempo de inicialización de MoveIt fue necesario ejecutarlo en el siguiente orden.
 
 ```
-source ~/kachau_ws/install/setup.bash
+source ~/SR_Manipulator_V2/kachau_ws/install/setup.bash
 ros2 launch robot_moveit_config move_group.launch.py
 ```
 ```
-source ~/kachau_ws/install/setup.bash
+source ~/SR_Manipulator_V2/kachau_ws/install/setup.bash
 ros2 launch rover_kachau robot_gazebo.launch.py world_name:=urjc_excavation_msr
 ```
 ```
-source ~/kachau_ws/install/setup.bash
+source ~/SR_Manipulator_V2/kachau_ws/install/setup.bash
 ros2 launch rover_kachau robot_controllers.launch.py
 ```
 Por último lanzamos la teleoperación:
